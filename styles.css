@@ -3,18 +3,20 @@
   padding: 0px;
   margin: 0 auto;
 }
-body{
+#pageContainer{
+  width: 970px;
   font-family: 'Khula',Arial, sans-serif;
+  position: relative;
 }
 #globeLogo{
-  height: 75px;
+  height: 80px;
   position: absolute;
   left: 5px;
 }
 h1{
   height: 60px;
   line-height: 75px;
-  font-size: 2.3em;
+  font-size: 2.5em;
   padding-left: 85px;
   color: #474747;
 }
@@ -22,9 +24,95 @@ h1 span{
   color: #26669c;
 }
 h2{
-  height: 50px;
-  line-height: 55px;
+  height: 60px;
+  line-height: 65px;
+  font-size: 1.7em;
   padding-left: 15px;
   background: linear-gradient(#29689d,#5484ab,#29689d);
   color: white;
+}
+#contentContainer{
+  background: linear-gradient(#e4e4e4,#ffffff);
+}
+#sideBar{
+  width: 200px;
+  height: 600px;
+  vertical-align: top;
+  display: inline-block;
+  border: 1px solid red;
+}
+#question{
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 20px 5px 5px 5px;
+}
+#question span{
+  color: red;
+}
+#answer{
+  font-size: 0.85em;
+  font-weight: bold;
+  margin: 0 5px 10px 5px;
+}
+#answer span{
+  color: #2f6ca0;
+}
+#btn1, #btn2{
+  width: 180px;
+  height: 30px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 5px;
+  box-shadow: 2px 2px grey;
+  color: white;
+}
+#btn1{
+  background-color: #447ead;
+  background: linear-gradient(#6599c1,#2b689c);
+  margin: 20px 10px 5px 10px;
+}
+#btn2{
+  background-color: #eaa24d;
+  background: linear-gradient(#ebb56d,#ee7403);
+  margin: 5px 10px 30px 10px;
+}
+#sideBarLine{
+  width: 190px;
+  height: 1px;
+  background: #b6b6b6;
+  margin: 30px 5px;
+}
+#sideBarAd{
+  height: 300px;
+  margin: 5px;
+  background-image: url("images/ad_background.png");
+  overflow: hidden;
+  text-align: center;
+}
+#adP{
+  color: white;
+  font-size: 1.3em;
+  margin: 10px 10px 5px 10px;
+}
+#ninja{
+  height: 100px;
+  margin: 10px 10px 20px 10px;
+}
+#adBtn{
+  width: 150px;
+  height: 25px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+  background-color: #04bbd7;
+  background: linear-gradient(#7cd0de,#04bbd7);
+  box-shadow: 1px 1px grey;
+  color: white;
+}
+#mainContent{
+  width: 766px;
+  height: 10px;
+  vertical-align: top;
+  display: inline-block;
+  border: 1px solid blue;
 }
