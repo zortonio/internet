@@ -3,3 +3,28 @@
   padding: 0px;
   margin: 0 auto;
 }
+body{
+  font-family: 'Khula',Arial, sans-serif;
+}
+#globeLogo{
+  height: 75px;
+  position: absolute;
+  left: 5px;
+}
+h1{
+  height: 60px;
+  line-height: 75px;
+  font-size: 2.3em;
+  padding-left: 85px;
+  color: #474747;
+}
+h1 span{
+  color: #26669c;
+}
+h2{
+  height: 50px;
+  line-height: 55px;
+  padding-left: 15px;
+  background: linear-gradient(#29689d,#5484ab,#29689d);
+  color: white;
+}
